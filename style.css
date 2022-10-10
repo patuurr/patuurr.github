@@ -1,0 +1,42 @@
+body {
+    height: 2000px;
+    margin: 0%;
+}
+.menu {
+    position: fixed;
+    background-color: black;
+    top: 0;
+    width: 100%;
+}
+.menu-order {
+    color: white;
+}
+.foot {
+    background-color: black;
+    position: relative;
+    color: white;
+    top: 100%;
+    right: 0%;
+    left: 0%;
+}
+.all-button-menu {
+    max-height: 100px;
+    top: 0;
+    width: 100%;
+}
+.button-menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5%;
+}
